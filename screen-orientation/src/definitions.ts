@@ -7,16 +7,6 @@ export interface OrientationLockOptions {
   orientation: OrientationLockType;
 }
 
-export type OrientationLockType =
-  | 'any'
-  | 'natural'
-  | 'landscape'
-  | 'portrait'
-  | 'portrait-primary'
-  | 'portrait-secondary'
-  | 'landscape-primary'
-  | 'landscape-secondary';
-
 export interface ScreenOrientationResult {
   type: OrientationType;
 }
